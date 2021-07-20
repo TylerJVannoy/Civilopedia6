@@ -1,0 +1,18 @@
+.content p {
+  font-family: "Merriweather", serif;
+}
+
+.content h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+.backTag {
+  padding-bottom: 20px;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.backAnchor {
+  background-color: #000022;
+}

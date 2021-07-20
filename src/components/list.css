@@ -1,0 +1,48 @@
+html {
+  background-color: #c1d5e2;
+}
+
+.maincontent {
+  background-color: #000022;
+}
+
+.viewbutton {
+  background-color: #707183;
+  border-color: #a2a3bb;
+}
+
+.viewbutton:hover {
+  background-color: red;
+}
+
+@media only screen and (max-width: 660px) {
+  .leadershow {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .civshow {
+    display: none;
+  }
+}
+
+.civshow {
+  color: white;
+}
+
+.leadershow {
+  color: white;
+}
+
+.controllerstyle a {
+  color: rgb(109, 225, 230);
+}
+
+.controllerstyle a:hover {
+  color: white;
+}
+
+.spanstyle {
+  color: white;
+}

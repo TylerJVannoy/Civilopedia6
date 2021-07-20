@@ -1,0 +1,49 @@
+.splash {
+  background-image: linear-gradient(rgba(250, 213, 90, 0.2), rgba(0, 0, 0, 1)),
+    url("https://images8.alphacoders.com/707/thumb-1920-707947.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+  position: relative;
+}
+
+.splashtitle {
+  font-size: 32px;
+  text-align: center;
+  color: white;
+}
+
+.splashcontainer {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 375px;
+  position: relative;
+  top: 23%;
+}
+
+.outersplash {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.listLink {
+  display: block;
+  text-align: center;
+  margin: auto;
+  color: white;
+  top: 50%;
+  font-family: "Lato", sans-serif;
+}
+
+.linkContainer a:hover {
+  color: rgb(109, 225, 230);
+}
+
+.linkContainer {
+  height: 500px;
+  position: relative;
+}

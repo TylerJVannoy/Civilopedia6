@@ -1,0 +1,30 @@
+.formcontainer {
+  background-color: black;
+}
+
+.formstyle {
+  background-color: #000022;
+}
+
+.formstyle label {
+  color: white;
+}
+
+.buttonstyle {
+  background-color: rgb(109, 225, 230);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-color: rgb(109, 225, 230);
+  color: #000022;
+}
+
+.container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+}

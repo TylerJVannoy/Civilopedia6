@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #000022;
+}
+
+.navbar-brand {
+  background-color: #000022;
+}
+
+.navbar-end {
+  background-color: #000022;
+}
+
+.navbar-burger {
+  background-color: #000022;
+}
+
+.navbar-menu {
+  background-color: #000022;
+}
+
+.navbar-end a {
+  color: rgb(109, 225, 230);
+}
+
+.navbar-brand a {
+  color: rgb(109, 225, 230);
+}
+
+.navbar-brand a:hover {
+  color: white;
+}
+
+.navbar-end a:hover {
+  color: white;
+}
