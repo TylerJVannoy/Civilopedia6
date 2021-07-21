@@ -35,7 +35,10 @@ export default class EditCivilization extends Component {
 
   componentDidMount() {
     axios
-      .get("http://localhost:5000/civilizations/" + this.props.match.params.id)
+      .get(
+        "https://civilopediabackend.herokuapp.com/civilizations/" +
+          this.props.match.params.id,
+      )
       .then(response => {
         this.setState({
           image: response.data.image,

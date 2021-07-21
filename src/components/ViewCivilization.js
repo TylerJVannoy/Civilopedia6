@@ -23,21 +23,23 @@ class ViewCivilization extends Component {
 
   componentDidMount() {
     const id = this.props.match.params.id;
-    axios.get("http://localhost:5000/civilizations/" + id).then(res => {
-      this.setState({
-        image: res.data.image,
-        civilization: res.data.civilization,
-        civdescription: res.data.civdescription,
-        leader: res.data.leader,
-        leaderdescription: res.data.leaderdescription,
-        unit: res.data.unit,
-        unitdescription: res.data.unitdescription,
-        infrastructure: res.data.infrastructure,
-        infrastructuredescription: res.data.infrastructuredescription,
-        rating: res.data.rating,
+    axios
+      .get("https://civilopediabackend.herokuapp.com/civilizations/" + id)
+      .then(res => {
+        this.setState({
+          image: res.data.image,
+          civilization: res.data.civilization,
+          civdescription: res.data.civdescription,
+          leader: res.data.leader,
+          leaderdescription: res.data.leaderdescription,
+          unit: res.data.unit,
+          unitdescription: res.data.unitdescription,
+          infrastructure: res.data.infrastructure,
+          infrastructuredescription: res.data.infrastructuredescription,
+          rating: res.data.rating,
+        });
+        console.log(this.state.image);
       });
-      console.log(this.state.image);
-    });
   }
 
   render() {
