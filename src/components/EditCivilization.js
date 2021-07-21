@@ -130,7 +130,7 @@ export default class EditCivilization extends Component {
 
     axios
       .post(
-        "http://localhost:5000/civilizations/update/" +
+        "https://civilopediabackend.herokuapp.com/civilizations/update/" +
           this.props.match.params.id,
         civ,
       )
