@@ -45,7 +45,7 @@ export default class CivilizationList extends Component {
 
   componentDidMount() {
     axios
-      .get("http://localhost:5000/civilizations/")
+      .get("https://civilopediabackend.herokuapp.com/civilizations/")
       .then(response => {
         this.setState({ civilizations: response.data });
       })
@@ -56,7 +56,7 @@ export default class CivilizationList extends Component {
 
   deleteCiv(id) {
     axios
-      .delete("http://localhost:5000/civilizations/" + id)
+      .delete("https://civilopediabackend.herokuapp.com/civilizations/" + id)
       .then(res => console.log(res.data));
     this.setState({
       civilizations: this.state.civilizations.filter(el => el._id !== id),

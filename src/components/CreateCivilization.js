@@ -106,7 +106,7 @@ export default class CreateCivilization extends Component {
     console.log(civ);
 
     axios
-      .post("http://localhost:5000/civilizations/add", civ)
+      .post("https://civilopediabackend.herokuapp.com/civilizations/add", civ)
       .then(res => console.log(res.data));
 
     window.location = "/list";
