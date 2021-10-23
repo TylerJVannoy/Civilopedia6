@@ -1,6 +1,6 @@
 # Civilopedia 6
 
-## simple express and react app to upload existing and modded Civilization 6 countries and their data
+## simple express and react app to upload existing and modded Civilization6 data
 
 ### Stack
 
