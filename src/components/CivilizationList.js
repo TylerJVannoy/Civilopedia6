@@ -86,7 +86,7 @@ export default class CivilizationList extends Component {
                   <table className="table maincontent">
                     <thead>
                       <tr>
-                        <th className="has-text-white">Flag</th>
+                        <th className="has-text-white">Country Flag</th>
                         <th className="civshow has-text-white">Civilization</th>
                         <th className="leadershow has-text-white">Leader</th>
                         <th className="controls has-text-white">Controls</th>
