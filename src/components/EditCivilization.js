@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import axios from "axios";
 import Navbar from "./Navbar";
 
-//add some random comment
 export default class EditCivilization extends Component {
   constructor(props) {
     super(props);
